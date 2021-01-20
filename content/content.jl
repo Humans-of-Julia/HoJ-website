@@ -3,6 +3,7 @@
 ######################################
 
 info["avatar"] = "logo.png"
+info["avatar_shape"] = "raw" # use "round" or just comment that line to use a round border 
 info["lang"] = "en"
 info["name"] = "Humans of Julia"
 info["title"] = "HoJ"
@@ -61,7 +62,7 @@ page(
 #   items: about contest, previous contest
 ######################################
 contest_tl = TimeLine(
-    StaticWebPages.tl_blue,
+    StaticWebPages.tl_julia,
     Dot(
         "Week 2",
         "$(link("TextAnalysis.jl", "https://github.com/JuliaText/TextAnalysis.jl")) provides support for standard tools and models for working with textual data and natural languages in the Julia language.",
