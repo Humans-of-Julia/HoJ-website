@@ -27,5 +27,7 @@ After generating the last website version locally, just commit and push your cha
 
 ```git
 git add *
-git push origin main
+git push origin update
 ```
+
+Please make a PR here and merge with `main` if no conflicts.
