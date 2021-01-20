@@ -1,6 +1,6 @@
 # Paths setup
 content_ = "content"
-site = "site"
+site = "docs"
 
 # import the website generator functions
 import StaticWebPages
