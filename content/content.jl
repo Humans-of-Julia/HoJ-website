@@ -10,6 +10,8 @@ info["email"] = "HumanOfJulia@gmail.com"
 
 ## Social Networks (comment/delete lines to unwanted social network, input your personal info for the others)
 info["github"] = "https://github.com/Humans-of-Julia"
+info["discord"] = "https://discord.com/channels/762167454973296644/762206833192468480/762206959042166784"
+info["twitter"] = "HumansOfJulia"
 
 ######################################
 # Contributors user name => real name
@@ -27,10 +29,16 @@ about_hoj = Block(
     Human. Neither dog nor god.
     """,
     """
-    HoJ purpose.
+    HoJ purpose. Join our $(link("Discord","https://discord.com/channels/762167454973296644/762206833192468480/762206959042166784"))
     """,
     ),
     images()
+)
+
+github = GitRepo(
+    "Humans-of-Julia/GraknClient.jl",
+    "Humans-of-Julia/WeeklyContest",
+    "Humans-of-Julia/HoJ-logo-graphics",
 )
 
 page(
@@ -40,6 +48,11 @@ page(
             title="Humans of Julia",
             items=about_hoj
         ),
+        Section(
+            title="GitHub",
+            hide=false,
+            items=github,
+        ),
     ]
 )
 
@@ -48,49 +61,7 @@ page(
 #   items: about contest, previous contest
 ######################################
 contest_tl = TimeLine(
-    StaticWebPages.tl_red,
-    Dot(
-        "Week 2",
-        "$(link("TextAnalysis.jl", "https://github.com/JuliaText/TextAnalysis.jl")) provides support for standard tools and models for working with textual data and natural languages in the Julia language.",
-        "Winner: Laurens Bosman (laurens777)"
-    ),
-    Dot(
-        "Week 1",
-        "$(link("GLM.jl", "https://github.com/JuliaStats/GLM.jl")) a package for linear and generalized linear models in Julia.",
-        "Winner: Tom Kwong (tk3369)"
-    ),
-)
-
-contest_tl2 = TimeLine(
     StaticWebPages.tl_blue,
-    Dot(
-        "Week 2",
-        "$(link("TextAnalysis.jl", "https://github.com/JuliaText/TextAnalysis.jl")) provides support for standard tools and models for working with textual data and natural languages in the Julia language.",
-        "Winner: Laurens Bosman (laurens777)"
-    ),
-    Dot(
-        "Week 1",
-        "$(link("GLM.jl", "https://github.com/JuliaStats/GLM.jl")) a package for linear and generalized linear models in Julia.",
-        "Winner: Tom Kwong (tk3369)"
-    ),
-)
-
-contest_tl3 = TimeLine(
-    StaticWebPages.tl_green,
-    Dot(
-        "Week 2",
-        "$(link("TextAnalysis.jl", "https://github.com/JuliaText/TextAnalysis.jl")) provides support for standard tools and models for working with textual data and natural languages in the Julia language.",
-        "Winner: Laurens Bosman (laurens777)"
-    ),
-    Dot(
-        "Week 1",
-        "$(link("GLM.jl", "https://github.com/JuliaStats/GLM.jl")) a package for linear and generalized linear models in Julia.",
-        "Winner: Tom Kwong (tk3369)"
-    ),
-)
-
-contest_tl4 = TimeLine(
-    StaticWebPages.tl_orange,
     Dot(
         "Week 2",
         "$(link("TextAnalysis.jl", "https://github.com/JuliaText/TextAnalysis.jl")) provides support for standard tools and models for working with textual data and natural languages in the Julia language.",
@@ -119,37 +90,11 @@ about_contest = Section(
 )
 
 previous_contest = Section(title="Previous contests", items=contest_tl)
-previous_contest2 = Section(title="Previous contests", items=contest_tl2)
-previous_contest3 = Section(title="Previous contests", items=contest_tl3)
-previous_contest4 = Section(title="Previous contests", items=contest_tl4)
 
 
 page(
-    title="weekly constest",
-    sections=[about_contest, previous_contest, previous_contest2, previous_contest3, previous_contest4]
-)
-
-######################################
-# software.html: github (GitRepo)
-#   option 1: Section is hidden (to avoid pulling info from GitHub at each run)
-#   option 2: background for the page is set to start with white to emphasize the items
-######################################
-github = GitRepo(
-    "Humans-of-Julia/GraknClient.jl",
-    "Humans-of-Julia/WeeklyContest",
-    "Humans-of-Julia/HoJ-logo-graphics",
-)
-
-page(
-    title="projects",
-    background=bg_white,
-    sections=[
-        Section(
-            title="GitHub",
-            hide=false,
-            items=github,
-        )
-    ]
+    title="weekly contest",
+    sections=[about_contest, previous_contest]
 )
 
 ######################################
