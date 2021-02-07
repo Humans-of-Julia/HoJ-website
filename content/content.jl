@@ -7,7 +7,7 @@ info["avatar_shape"] = "raw" # use "round" or just comment that line to use a ro
 info["lang"] = "en"
 info["name"] = "Humans of Julia"
 info["title"] = "HoJ"
-info["email"] = "HumanOfJulia@gmail.com"
+info["email"] = "contact@humansofjulia.org"
 
 ## Social Networks (comment/delete lines to unwanted social network, input your personal info for the others)
 info["github"] = "https://github.com/Humans-of-Julia"
