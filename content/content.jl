@@ -11,7 +11,7 @@ info["email"] = "contact@humansofjulia.org"
 
 ## Social Networks (comment/delete lines to unwanted social network, input your personal info for the others)
 info["github"] = "https://github.com/Humans-of-Julia"
-info["discord"] = "https://discord.com/channels/762167454973296644/762206833192468480/762206959042166784"
+info["discord"] = "https://discord.gg/nPPZy4RYbP"
 info["twitter"] = "HumansOfJulia"
 
 ######################################
