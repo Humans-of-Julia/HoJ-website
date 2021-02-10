@@ -27,6 +27,7 @@ After generating the last website version locally, just commit and push your cha
 
 ```git
 git add *
+git commit -m "Content update"
 git push origin update
 ```
 
