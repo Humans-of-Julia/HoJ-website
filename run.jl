@@ -2,6 +2,10 @@
 content_ = "content"
 site = "docs"
 
+# import Pkg and install StaticWebPages # comment if not on CI
+import Pkg
+Pkg.add("StaticWebPages")
+
 # import the website generator functions
 import StaticWebPages
 import StaticWebPages: local_info
