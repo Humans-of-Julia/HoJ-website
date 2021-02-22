@@ -1,14 +1,33 @@
-name: CI
-on: 
-  - push
+name: Deploy to GitHub pages
+on:
+  push:
+    branches: [ source ]
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v1
-      - uses: julia-actions/setup-julia@v1
-        with:
-          version: '1.5'
-      - uses: julia-actions/julia-buildpkg@master
-      - run: julia --project run.jl
+    - uses: actions/checkout@v2
+    - uses: julia-actions/setup-julia@v1
+      with:
+        version: '1.5'
+    - name: Generate static files in site
+      uses: julia-actions/julia-buildpkg@master
+    - run: julia --project run.jl
+
+    - name: Init new repo in site and commit generated files
+      run: |
+        cd docs
+        git init
+        git add -A
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git commit -m 'deploy'
+
+    - name: Force push to main
+      uses: ad-m/github-push-action@v0.5.0
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: main
+        force: true
+        directory: ./docs
