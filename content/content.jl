@@ -18,6 +18,7 @@ info["twitter"] = "HumansOfJulia"
 # Contributors user name => real name
 ######################################
 user_to_name["azzaare"] = "Jean-François Baffier"
+user_to_name["mkschulze"] = "Mark Schulze"
 
 ######################################
 # index.html
