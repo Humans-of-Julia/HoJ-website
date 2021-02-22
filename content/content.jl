@@ -41,6 +41,12 @@ github = GitRepo(
     "Humans-of-Julia/GraknClient.jl",
     "Humans-of-Julia/WeeklyContest",
     "Humans-of-Julia/HoJ-logo-graphics",
+    "Humans-of-Julia/ExecutableSpecifications.jl",
+    "Humans-of-Julia/StaticWebPages.jl",
+    "Humans-of-Julia/Bibliography.jl",
+    "Humans-of-Julia/BibParser.jl",
+    "Humans-of-Julia/BibInternal.jl",
+    "Humans-of-Julia/HoJ-website",
 )
 
 page(
