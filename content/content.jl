@@ -39,8 +39,7 @@ about_hoj = Block(
     """
     Join our $(link("Discord","https://discord.gg/nPPZy4RYbP")). Contact us at $hoj_email
     """
-    ),
-    images()
+    )
 )
 
 github = GitRepo(
