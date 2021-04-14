@@ -13,7 +13,7 @@ hoj_email = email("contact@humansofjulia.org") # obfuscated
 ## Social Networks (comment/delete lines to unwanted social network, input your personal info for the others)
 info["github"] = "https://github.com/Humans-of-Julia"
 info["discord"] = "https://discord.gg/nPPZy4RYbP"
-info["twitter"] = "HumansOfJulia"
+info["twitter"] = "https://twitter.com/HumansOfJulia"
 
 ######################################
 # Contributors user name => real name
