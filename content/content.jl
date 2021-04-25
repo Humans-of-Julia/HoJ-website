@@ -44,7 +44,7 @@ about_hoj = Block(
 )
 
 github = GitRepo(
-    "Humans-of-Julia/GraknClient.jl",
+    "Humans-of-Julia/TypeDBClient.jl",
     "Humans-of-Julia/WeeklyContest",
     "Humans-of-Julia/HoJ-logo-graphics",
     "Humans-of-Julia/ExecutableSpecifications.jl",
