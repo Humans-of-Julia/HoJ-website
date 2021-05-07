@@ -138,8 +138,18 @@ pkg_announce = GitRepo(
 )
 
 page(
-    title="Package announcements",
-    sections = [about_announce, pkg_announce],
+    title="Pkg-announcements",
+    sections=[
+        Section(
+            title="Package announcements",
+            items=about_announce
+        ),
+        Section(
+            title="GitHub",
+            hide=false,
+            items=pkg_announce,
+        ),
+    ]
 )
 
 ######################################
