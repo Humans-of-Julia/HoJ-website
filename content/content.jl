@@ -115,5 +115,33 @@ page(
 )
 
 ######################################
+# announcement.html
+#   items: about hoj
+######################################
+
+about_announce = Block(
+    paragraphs(
+    """
+    We are proud to present here the packages that Humans-of-Julia members have developed or participated in! All these packages have been previously announced on the #pkg-announcements channel or on our Discord.
+    """,
+    """
+    The list of packages is upgraded regularly to match the announcements on Discord. 
+    """
+    ),
+    images()
+)
+
+pkg_announce = GitRepo(
+    "rmsrosa/UnitfulBuckinghamPi.jl",
+    "rmsrosa/UnitfulAssets.jl",
+    "VarLad/Utilitas.jl",
+)
+
+page(
+    title="Package announcements",
+    sections = [about_announce, pkg_announce],
+)
+
+######################################
 # End of the entries
 ######################################
