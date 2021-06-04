@@ -135,6 +135,8 @@ about_announce = Block(
 )
 
 pkg_announce = GitRepo(
+    "erikedin/Behavior.jl",
+    "longemen3000/ChemicalIdentifiers.jl",
     "rmsrosa/UnitfulBuckinghamPi.jl",
     "rmsrosa/UnitfulAssets.jl",
     "VarLad/Utilitas.jl",
