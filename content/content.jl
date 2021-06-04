@@ -3,7 +3,7 @@
 ######################################
 
 info["avatar"] = "logo.png"
-info["avatar_shape"] = "raw" # use "round" or just comment that line to use a round border 
+info["avatar_shape"] = "raw" # use "round" or just comment that line to use a round border
 info["lang"] = "en"
 info["name"] = "Humans of Julia"
 info["title"] = "HoJ"
@@ -47,6 +47,7 @@ github = GitRepo(
     "Humans-of-Julia/TypeDBClient.jl",
     "Humans-of-Julia/HoJBot.jl",
     "Humans-of-Julia/TypeDBRunner",
+    "Humans-of-Julia/JuliaTutor.jl",
     "Humans-of-Julia/WeeklyContest",
     "Humans-of-Julia/HoJ-logo-graphics",
     "Humans-of-Julia/ExecutableSpecifications.jl",
@@ -55,6 +56,8 @@ github = GitRepo(
     "Humans-of-Julia/BibParser.jl",
     "Humans-of-Julia/BibInternal.jl",
     "Humans-of-Julia/PatternFolds.jl",
+    "Humans-of-Julia/LaTeXUnicode.jl",
+    "Humans-of-Julia/ModernGraphs.jl",
     "Humans-of-Julia/HoJ-website",
 )
 
@@ -125,7 +128,7 @@ about_announce = Block(
     We are proud to present here the packages that Humans-of-Julia members have developed or participated in! All these packages have been previously announced on the #pkg-announcements channel or on our Discord.
     """,
     """
-    The list of packages is upgraded regularly to match the announcements on Discord. 
+    The list of packages is upgraded regularly to match the announcements on Discord.
     """
     ),
     images()
