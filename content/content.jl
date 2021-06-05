@@ -51,7 +51,6 @@ github = GitRepo(
     "Humans-of-Julia/JuliaTutor.jl",
     "Humans-of-Julia/WeeklyContest",
     "Humans-of-Julia/HoJ-logo-graphics",
-    "Humans-of-Julia/ExecutableSpecifications.jl",
     "Humans-of-Julia/StaticWebPages.jl",
     "Humans-of-Julia/Bibliography.jl",
     "Humans-of-Julia/BibParser.jl",
