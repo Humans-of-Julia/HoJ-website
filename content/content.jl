@@ -45,20 +45,20 @@ about_hoj = Block(
 )
 
 github = GitRepo(
-    "Humans-of-Julia/TypeDBClient.jl",
+    "Humans-of-Julia/TypeDBClient.jl" => ["TypeDB"],
     "Humans-of-Julia/HoJBot.jl",
-    "Humans-of-Julia/TypeDBRunner",
+    "Humans-of-Julia/TypeDBRunner" => ["TypeDB"],
     "Humans-of-Julia/JuliaTutor.jl",
-    "Humans-of-Julia/WeeklyContest",
-    "Humans-of-Julia/HoJ-logo-graphics",
-    "Humans-of-Julia/StaticWebPages.jl",
-    "Humans-of-Julia/Bibliography.jl",
-    "Humans-of-Julia/BibParser.jl",
-    "Humans-of-Julia/BibInternal.jl",
-    "Humans-of-Julia/PatternFolds.jl",
-    "Humans-of-Julia/LaTeXUnicode.jl",
-    "Humans-of-Julia/ModernGraphs.jl",
-    "Humans-of-Julia/HoJ-website",
+    "Humans-of-Julia/WeeklyContest" => ["community"],
+    "Humans-of-Julia/HoJ-logo-graphics" => ["community"],
+    "Humans-of-Julia/StaticWebPages.jl" => ["webdev", "modern-academics"],
+    "Humans-of-Julia/Bibliography.jl" => ["bibliography", "modern-academics"],
+    "Humans-of-Julia/BibParser.jl" => ["bibliography", "modern-academics"],
+    "Humans-of-Julia/BibInternal.jl" => ["bibliography", "modern-academics"],
+    "Humans-of-Julia/PatternFolds.jl" => ["modern-academics"],
+    "Humans-of-Julia/LaTeXUnicode.jl" => ["bibliography", "modern-academics"],
+    "Humans-of-Julia/ModernGraphs.jl" => ["modern-academics"],
+    "Humans-of-Julia/HoJ-website" => ["community", "modern-academics"],
 )
 
 page(
@@ -135,7 +135,7 @@ about_announce = Block(
 )
 
 pkg_announce = GitRepo(
-    "erikedin/Behavior.jl",
+    "erikedin/Behavior.jl" => ["TypeDB"],
     "longemen3000/ChemicalIdentifiers.jl",
     "ali-ramadhan/DocumenterCitations.jl" => ["bibliography", "modern-academics"],
     "rmsrosa/UnitfulBuckinghamPi.jl",
