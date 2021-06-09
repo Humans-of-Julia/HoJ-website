@@ -1,4 +1,6 @@
 name: Deploy to GitHub pages
+env:
+    - JULIA_PKG_SERVER=""
 on:
   push:
     branches: [ source ]
