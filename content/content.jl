@@ -135,7 +135,7 @@ about_announce = Block(
 )
 
 pkg_announce = GitRepo(
-    "harubhardwaj/beep.jl",
+    "arubhardwaj/Beep.jl",
     "erikedin/Behavior.jl" => ["TypeDB"],
     "longemen3000/ChemicalIdentifiers.jl",
     "ali-ramadhan/DocumenterCitations.jl" => ["bibliography", "modern-academics"],
