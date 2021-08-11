@@ -4,7 +4,7 @@ site = "docs"
 
 # import Pkg and install StaticWebPages # comment if not on CI
 import Pkg
-Pkg.add("StaticWebPages")
+Pkg.add("StaticWebPages", rev="master")
 
 # import the website generator functions
 import StaticWebPages
