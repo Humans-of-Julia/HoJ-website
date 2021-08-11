@@ -19,6 +19,3 @@ local_info["site"] = site
 # `rm_dir = true` will clean up the site folder before generating it again. Default to false.
 # `opt_in = true` will add a link to this generator website in the side menu. Default to
 StaticWebPages.export_site(rm_dir = false, opt_in = true)
-
-## upload website (comment/delete if not needed)
-# TODO: make it automatic with GitHub pages
