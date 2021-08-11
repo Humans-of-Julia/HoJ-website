@@ -103,6 +103,16 @@ juliacon_tl = TimeLine(
     ),
     Dot(
         "July 29 2021",
+        "$(link("ConstraintSolver.jl - First constraint solver written in Julia", "https://live.juliacon.org/talk/DMTYDS")), Jacob ZELKO, Ole KRÖGER",
+        "Javis.jl is a general purpose animation library which builds on top of the Luxor.jl graphics library. It fills a gap in the Julia ecosystem by providing functionality to create object based animations to communicate complex ideas through simple means. Furthermore, Javis provides the flexibility for users to extend Javis’s visualizations to a variety of applications. Users are already expressing complicated ideas through winsome domain specific visuals such as planetary motion or brain mapping."
+    ),
+    Dot(
+        "July 29 2021",
+        "$(link("Javis.jl - Julia Animations and Visualizations", "https://live.juliacon.org/talk/9KTFNJ")), Ole KRÖGER",
+        "In this talk we discuss ConstraintSolver.jl, a new Julia package to tackle the problem of solving constraint programming problems purely in Julia."
+    ),
+    Dot(
+        "July 29 2021",
         "$(link("CompositionalNetworks.jl: a scaling glass-box neural network", "https://live.juliacon.org/talk/BSTFEQ")), Khalil CHRIT",
         "Interpretable Compositional Networks (ICN), a variant of neural networks, that allows the user to get interpretable results, unlike regular artificial neural networks. An ICN is a glass-box producing functions composition that scale with the size of the input, allowing a learning phase on relatively small spaces. This presentation covers the different Julia packages and paradigms involved, a set of use-case, current limitations, future developments, and hopefully possible collaborations."
     ),
