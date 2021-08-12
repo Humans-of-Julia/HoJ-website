@@ -27,6 +27,7 @@ user_to_name["varlad"] = "Chetan Vardhan"
 include("index.jl")
 include("events.jl")
 include("announcements.jl")
+include("partners.jl")
 
 ######################################
 # End of the entries
