@@ -3,7 +3,7 @@
 #   items: about event, JuliaCon, Weekly contest
 ######################################
 
-about_contest = Section(
+about_partners = Section(
     title="Humans of Julia's partners",
     items=Block(
         paragraphs(
