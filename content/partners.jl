@@ -25,7 +25,8 @@ the_algorithm = Section(
             """
             Join us on our $(link("Discord server","https://discord.gg/c7MnfGFGa6"))! And do not hesitate to have a look at our $(link("GitHub repositories", "https://github.com/TheAlgorithms")) such as the Julia dedicated one: $(link("The Algotihms - Julia", "https://github.com/TheAlgorithms/Julia")).
             """
-        )
+        ),
+        images()
     )
 )
 
