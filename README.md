@@ -6,8 +6,8 @@ Please modify your contents files and execute the following commands at the root
 
 Optional step:
 ```julia
-(@v1.6) pkg> up # Recommended
-(@v1.6) pkg> add StaticWebPages # First time using StaticWebPages
+(@v1.8) pkg> up # Recommended
+(@v1.8) pkg> add StaticWebPages # First time using StaticWebPages
 
 import StaticWebPages # Trigger precompilation
 ```
